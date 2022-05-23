@@ -1,4 +1,6 @@
 import './topbar.css'
+import Img_One from '../images/profile_img.jpg'
+
 
 export default function TopBar() {
   return (
@@ -19,7 +21,7 @@ export default function TopBar() {
              </ul>
          </div>
          <div className='topRight'>
-             <img className='topImg' src='' alt=''/>
+         <img className='topImg' src={Img_One} alt='wess_image'/>
              <i className='topSearchIcon fas fa-search'></i>
          </div>
     </div>
