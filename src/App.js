@@ -5,7 +5,9 @@ import TopBar from "./components/topbar/TopBar";
 import Single from "./pages/single/Single";
 // eslint-disable-next-line
 import Write from "./pages/write/Write";
+// eslint-disable-next-line
 import Settings from "./pages/settings/Settings";
+import Login from "./pages/login/Login";
 
 function App() {
   return (
@@ -13,8 +15,8 @@ function App() {
      <TopBar />
       {/*<Write /> */}
       {/*<Single /> */}
-    
-      <Settings />
+      {/*<Settings />*/}
+      <Login />
     
     
     </>
