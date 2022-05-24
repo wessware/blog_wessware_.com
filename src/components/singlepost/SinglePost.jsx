@@ -1,4 +1,4 @@
-import './SinglePost.css'
+import './singlepost.css'
 import SPost_Image from '../../images/img-4.jpg'
 
 export default function SinglePost() {
