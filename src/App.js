@@ -12,6 +12,8 @@ function App() {
     <>
      <TopBar />
       {/*<Write /> */}
+      {/*<Single /> */}
+    
       <Settings />
     
     
