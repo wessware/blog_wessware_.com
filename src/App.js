@@ -7,6 +7,7 @@ import Single from "./pages/single/Single";
 import Write from "./pages/write/Write";
 // eslint-disable-next-line
 import Settings from "./pages/settings/Settings";
+// eslint-disable-next-line
 import Login from "./pages/login/Login";
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       {/*<Write /> */}
       {/*<Single /> */}
       {/*<Settings />*/}
-      <Login />
+      {/*<Login />*/}
     
     
     </>
