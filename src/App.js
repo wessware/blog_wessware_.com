@@ -9,23 +9,29 @@ import Write from "./pages/write/Write";
 import Settings from "./pages/settings/Settings";
 // eslint-disable-next-line
 import Login from "./pages/login/Login";
+// eslint-disable-next-line
 import Register from "./pages/register/Register";
 
 import {
-  BrowserRouter as Router, Switch, Route, Link
-} from 'react-router-dom'
+  BrowserRouter as Router, Routes, Route
+} from 'react-router-dom';
 function App() {
   return (
-    <>
-     <TopBar />
-      {/*<Write /> */}
-      {/*<Single /> */}
-      {/*<Settings />*/}
-      {/*<Login />*/}
-      <Register />
+    <Router>
+        <TopBar />
+          {/*<Write /> */}
+          {/*<Single /> */}
+          {/*<Settings />*/}
+          {/*<Login />*/}
+          {/*<Register />*/}
+          <Routes>
+            <Route path="/">
+              <Home/>
+            </Route>
+          </Routes>
     
     
-    </>
+    </Router>
    
   );
 }
